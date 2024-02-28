@@ -3,3 +3,6 @@
 *{
   font-family: "Poppins", sans-serif;
 }
+.home,.signup,.LoginPage{
+  margin-top: 80px;
+}

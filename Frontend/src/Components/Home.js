@@ -57,10 +57,6 @@ const Home = () => {
   };
 
   const handleLogout = () => {
-    // Clear user credentials or perform any logout actions
-    // For example, you can clear local storage or cookies that store user information
-
-    // Redirect to the login page
     navigate('/');
   };
 
