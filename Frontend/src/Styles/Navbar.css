@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: 5px 1px 5px #adadad;
+}
+.navbar img{
+    margin-left:5rem;
+}
