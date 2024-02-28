@@ -22,7 +22,7 @@ const Home = () => {
     console.log('User ID:', userId);
     const fetchHome = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/Home/${userId}`);
+        const response = await axios.get(`https://guvitask1.onrender.com/${userId}`);
         if (response.data) {
           setHomeData(response.data);
           setIsEditMode(
@@ -49,7 +49,7 @@ const Home = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://localhost:5000/Home/${userId}`, homeData);
+      await axios.put(`https://guvitask1.onrender.com/${userId}`, homeData);
       setIsEditMode(false);
     } catch (error) {
       console.error(error.response.data.message);
