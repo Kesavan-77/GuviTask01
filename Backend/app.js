@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect('mongodb://0.0.0.0:27017/mydb', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://kesavan77:kesavan1234@cluster0.0zntju6.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const userSchema = new mongoose.Schema({
   name: String,
