@@ -24,7 +24,7 @@ const SignUp = () => {
     }
     else{
     try {
-      const response = await axios.post('https://guvitask01.onrender.com/', formData);
+      const response = await axios.post('http://localhost:5000/signup', formData);
       alert(response.data.message);
       navigate('/');
     } catch (error) {
